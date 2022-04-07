@@ -1,0 +1,9 @@
+DB_HOST: localhost
+DB_PORT: 27017
+DB_USER: "thomas"
+DB_PASSWORD: "123456"
+DB_DB: "command"
+COMMAND_TABLE: "command_template"
+HEADER_TABLE: "header_template"
+
+

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "daniel_command_0",
+    "description": "開啟各層電力模組",
+    "protocol": {
+      "protocol": "HTTP",
+      "method": "GET",
+      "url": "https://gorest.co.in/public/v2/users",
+      "headers": {
+        "method": "basic",
+        "account": "thomas",
+        "password": "123456"
+      }
+    },
+    "insert": {
+      "check": true,
+      "parse_template": 1
+    }
+  },
+  {
+    "name": "daniel_command_1",
+    "description": "開啟大門",
+    "protocol": {
+      "protocol": "Http",
+      "method": "POST",
+      "url": "https://gorest.co.in/public/v2/users",
+      "headers": {
+        "method": "Bearer Token",
+        "token": "e90fcfc3ad82d274cc1bcb8bdff227ad3237803263c351c64f28cf82e2bf8d6d",
+        "content_type": "application/json"
+      },
+      "send_data": {
+        "data_type": "json",
+        "data": {
+          "name": "Tenali Ramakrishna",
+          "gender": "male",
+          "email": "tenali.ramakrishna@15ce.com",
+          "status": "active"
+        }
+      }
+    },
+    "insert": {
+      "check": false
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "method": "basic",
+    "account": "thomas",
+    "password": "123456"
+  },
+    {
+    "method": "Bearer Token",
+    "token": "t123rrqweqwhosdfsfdmas",
+    "content_type": "application/json"
+  }
+]
